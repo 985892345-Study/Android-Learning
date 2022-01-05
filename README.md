@@ -63,7 +63,7 @@
 
 ### 1.1、kotlin
 
-### 1.2、四大主件
+### 1.2、四大组件
 
 > 除掉 `ContenProvder` 可不用学习
 >
@@ -109,7 +109,9 @@
 
 ## 2、扩展内容
 
-> 学长们不讲或讲不细的自学内容
+> 学长们不讲或讲不细的自学内容  
+> 推荐学习软件：稀土掘金  
+> 推荐大佬文章：https://github.com/leavesC/AndroidGuide
 
 ### 2.1、Material Design
 
