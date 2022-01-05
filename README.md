@@ -163,7 +163,7 @@
 >
 > 进阶：《Android自定义控件高阶进阶与精彩实例》
 >
-> 博客：[自定义View源码原理](#https://blog.csdn.net/carson_ho/article/details/56009827)
+> 博客：[自定义View源码原理](https://blog.csdn.net/carson_ho/article/details/56009827)
 >
 > ### 1、onLayout
 >
@@ -190,10 +190,10 @@
 > > 推荐：
 > >
 > > 博客：
-> > [图解事件分发](#https://www.jianshu.com/p/e99b5e8bd67b)
-> > [dispatchTouchEvent源码解析](#https://blog.csdn.net/u011637339/article/details/50427156?utm_medium=distribute.wap_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1.essearch_wap_relevant&depth_1-utm_source=distribute.wap_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1.essearch_wap_relevant)
+> > [图解事件分发](https://www.jianshu.com/p/e99b5e8bd67b)  
+> > [dispatchTouchEvent源码解析](https://blog.csdn.net/u011637339/article/details/50427156?utm_medium=distribute.wap_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1.essearch_wap_relevant&depth_1-utm_source=distribute.wap_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1.essearch_wap_relevant)
 > >
-> > 图片：[郭祥瑞的滑动分发分支图](#https://www.processon.com/view/link/6191f797079129330ada2bd7)
+> > 图片：[郭祥瑞的滑动分发分支图](https://www.processon.com/view/link/6191f797079129330ada2bd7)
 > >
 > > ### dispatchTouchEvent
 > >
@@ -207,17 +207,16 @@
 >
 > > 推荐：
 > >
-> > 博客：[图解嵌套滑动](#https://blog.csdn.net/hongxue8888/article/details/104022221)
+> > 博客：[图解嵌套滑动](https://blog.csdn.net/hongxue8888/article/details/104022221)
 > >
 > > ### NestedScrollingParent和NestedScrollingParent2
-> >
-> > > [NestedScrollingChild2官方文档](#https://developer.android.com/reference/androidx/core/view/NestedScrollingChild2)
+> > > [NestedScrollingChild2官方文档](https://developer.android.com/reference/androidx/core/view/NestedScrollingChild2)
 > >
 > > ### NestedScrollingChild和NestedScrollingChild2
+> > > [NestedScrollingParent2官方文档](https://developer.android.com/reference/androidx/core/view/NestedScrollingParent2)
 > >
-> > > [NestedScrollingParent2官方文档](#https://developer.android.com/reference/androidx/core/view/NestedScrollingParent2)
-> >
-> > > 题外话：为什么还要看1，不直接看2？因为部分官方控件中只使用了1，所以你要知道1和2的区别。还有一个3，这个3在网上的教程较少，直接继承了2，是2的一个简化版。[NestedScrollingParent3官方文档](#https://developer.android.google.cn/reference/androidx/core/view/NestedScrollingParent3?hl=en)
+> > > 题外话：为什么还要看1，不直接看2？因为部分官方控件中只使用了1，所以你要知道1和2的区别。还有一个3，这个3在网上的教程较少，直接继承了2，是2的一个简化版。
+> > > [NestedScrollingParent3官方文档](https://developer.android.google.cn/reference/androidx/core/view/NestedScrollingParent3?hl=en)
 >
 > ### 与设计多层自定义View时的使用
 >
