@@ -189,7 +189,7 @@
 >
 > > 推荐：
 > >
-> > 博客：
+> > 博客：  
 > > [图解事件分发](https://www.jianshu.com/p/e99b5e8bd67b)  
 > > [dispatchTouchEvent源码解析](https://blog.csdn.net/u011637339/article/details/50427156?utm_medium=distribute.wap_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1.essearch_wap_relevant&depth_1-utm_source=distribute.wap_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Edefault-1.essearch_wap_relevant)
 > >
@@ -222,7 +222,7 @@
 >
 > > 建议自己写一些复杂自定义View，包含单击、滑动等一系列事件
 > >
-> > 可参考郭祥瑞写的 [TimeSelectView](https://github.com/985892345/TimeSelectView_Library) 控件（按照 README导入简单使用一下，源码写的很拉，在重写了😫，这里直接给出软件下载地址：https://wwi.lanzouo.com/iC1JGy08a0h，下载后自己试着想想该怎么设计
+> > 可参考郭祥瑞写的 [TimeSelectView](https://github.com/985892345/TimeSelectView_Library) 控件(按照 README导入简单使用一下，源码写的很拉，在重写了😫，这里直接给出软件下载地址: https://wwi.lanzouo.com/iC1JGy08a0h，下载后自己试着想想该怎么设计
 >
 > ### 简单看看View和ViewGroup中滑动源码
 >
