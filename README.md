@@ -41,13 +41,13 @@
 
 ### 3.1、自定义View
 
-> 点击跳转[自定义View](#2.4、自定义View)(github跳转不了，就在下面，2.4)
+> 点击跳转[自定义View](#2.4、自定义View)(github点[这个跳转](#24自定义view))
 
 ### 3.2、滑动冲突
 
 > 滑动冲突是设计自定义View必会的
 >
-> 点击跳转[滑动冲突](#2.5、滑动冲突)(github跳转不了，就在下面，2.5)
+> 点击跳转[滑动冲突](#2.5、滑动冲突)(github点[这个跳转](#25滑动冲突))
 
 ## 4、自己撸后端（不推荐）
 
@@ -119,7 +119,8 @@
 >
 > 推荐直接看官网：https://material.io/
 >
-> 推荐去打包他的源码：https://github.com/material-components/material-components-android（虽然源码没写注释，但想实现某个功能时可以去看看是否已经有实现了的）
+> 推荐去打包他的源码：[源码](https://github.com/material-components/material-components-android)  
+> （虽然源码没写注释，但想实现某个功能时可以去看看是否已经有实现了的）
 
 ### 2.2、线程池
 
