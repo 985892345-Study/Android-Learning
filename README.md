@@ -1,4 +1,9 @@
+[TOC]
+
+***采用 `Typora` 书写，建议各位 clone 下来进行阅读***
+
 # Android_Learning_Route
+
  21级学弟的Android学习清单
 
 # 寒假学习路线
@@ -83,7 +88,6 @@
 >
 > ### 与协程配套使用
 >
-> > 由于目前掌邮不能使用协程，主要是与阿里的热修护 `hotfix` 有关（三年了，不知道新版本能用了不）
 
 ### 1.5、Room的使用
 
@@ -91,7 +95,6 @@
 >
 > ### 与协程配套使用
 >
-> > 由于目前掌邮不能使用协程，主要是与阿里的热修护 `hotfix` 有关（三年了，不知道新版本能用了不）
 
 ### 1.6、MVVM + ViewModel + LiveData + DataBinding + Retrofit + Rxjava + Room
 
@@ -126,6 +129,8 @@
 
 ### 2.2、线程池
 
+> 线程池作业：https://github.com/985892345/Android_Learning_Route/blob/main/线程池作业.md
+>
 > ### 阻塞队列
 >
 > > 使用LinedList实现阻塞队列
@@ -134,6 +139,8 @@
 
 ### 2.3、RecyclerView高阶用法
 
+> RecyclerView进阶作业：https://github.com/985892345/Android_Learning_Route/blob/main/RecyclerView进阶作业.md
+>
 > ### 1、点击事件不要写在onBindViewHolder中
 >
 > ### 2、实现侧滑删除、长按移动Item（这些官方都有封装好的接口）
@@ -279,7 +286,9 @@
 
 ### 3.2、协程原理
 
-> 目前掌邮不能用协程，你们可以在自己写的项目中使用
+> 推荐文章：https://openxu.blog.csdn.net/article/details/116016798
+>
+> 推荐21级红岩学长蔷神的心得体会：https://github.com/False-Mask/KotlinCoroutine
 
 ### 3.3、Navigation
 
@@ -307,7 +316,7 @@
 
 ### 3.10、Compose
 
-### 3.11、Flow —— LiveData的替代者
+### 3.11、Flow 
 
 ### 3.xx 别卷了，别卷了！
 
