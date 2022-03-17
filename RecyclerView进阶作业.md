@@ -19,11 +19,11 @@
 >
 > - 效果一：侧滑到一定位置显示一个删除按钮，然后点击删除（图片来之网络）
 >
->    ![](https://img-blog.csdn.net/20180531174932775?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhcGFuZ3phbw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+>     ![](https://img-blog.csdn.net/20180531174932775?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhcGFuZ3phbw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 >
 > - 效果二：直接侧滑然后全部删除，不显示删除按钮（图片来之网络）
 >
->    ![](https://upload-images.jianshu.io/upload_images/9124992-49caa75246eaeeff.gif?imageMogr2/auto-orient/strip|imageView2/2/w/365/format/webp)
+>     ![](https://upload-images.jianshu.io/upload_images/9124992-49caa75246eaeeff.gif?imageMogr2/auto-orient/strip|imageView2/2/w/365/format/webp)
 >
 > **效果一更推荐使用重写子 View 来实现，比如重写 ScrollView**
 >
@@ -39,7 +39,7 @@
 >
 > 任务：实现以下功能（图片来之网络）
 >
->   ![](https://img-blog.csdn.net/20170717182505351?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvWkFDSF9aSE9V/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+>    ![](https://img-blog.csdn.net/20170717182505351?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvWkFDSF9aSE9V/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ### 2.3、RV 加分割线
 
@@ -55,11 +55,11 @@
 
 > 这里给个例子：（图片来之网络）
 >
->   ![](https://img-blog.csdnimg.cn/img_convert/b9bef71f9aca5642c27d55c429db8d2c.gif)
+>    ![](https://img-blog.csdnimg.cn/img_convert/b9bef71f9aca5642c27d55c429db8d2c.gif)
 >
 > >**有没有卷王来写个这个？**（图片来之网络）
 > >
-> >  ![](https://img-blog.csdn.net/20181009150453441?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhcnZpYzg4MDkyNQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+> >   ![](https://img-blog.csdn.net/20181009150453441?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2hhcnZpYzg4MDkyNQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 > >
 > >把 长按移动、侧滑删除、添加分割线 三个作业一起满足，且长按移动还可以改变 item 的级数（比如从第三级变为第一级），就像一个手机软件 滴答清单 的任务长按把任务改为子任务一样
 > >
