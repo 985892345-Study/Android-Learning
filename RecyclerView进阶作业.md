@@ -15,18 +15,23 @@
 
 ### 2.1、RV 实现侧滑删除
 
-> 网上有以下几种实现方案：
+> 有以下集中侧滑删除效果：
 >
-> - 重写子 View 的 `onTouchEvent()` 来实现（[点击查看文章](https://blog.csdn.net/dapangzao/article/details/80524774?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164707805416780264025629%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=164707805416780264025629&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v1~rank_v31_ecpm-1-80524774.pc_search_result_cache&utm_term=Android%E4%BE%A7%E6%BB%91%E5%88%A0%E9%99%A4&spm=1018.2226.3001.4187)）
-> - 使用官方提供的 ItemTouchHelper 来实现 （[点击查看文章](https://blog.csdn.net/woshixinshouyaya/article/details/121893444?spm=1001.2101.3001.6650.17&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-17.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-17.pc_relevant_default&utm_relevant_index=17)）
+> - 效果一：侧滑到一定位置显示一个删除按钮，然后点击删除（图片来之网络）
 >
-> **个人观点：**
+>    ![](https://img-blog.csdn.net/20180531174932775?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhcGFuZ3phbw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 >
-> 重写 `onTouchEvent()` 会导致耦合性增大，会苦了以后来维护代码的人，所以我更推荐使用官方提供的 ItemTouchHelper
+> - 效果二：直接侧滑然后全部删除，不显示删除按钮（图片来之网络）
 >
-> （图片来之网络）
+>    ![](https://upload-images.jianshu.io/upload_images/9124992-49caa75246eaeeff.gif?imageMogr2/auto-orient/strip|imageView2/2/w/365/format/webp)
 >
->  ![](https://img-blog.csdn.net/20180531174932775?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhcGFuZ3phbw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+> **效果一更推荐使用重写子 View 来实现，比如重写 ScrollView**
+>
+> **效果二更推荐使用 ItemTouchHelper 来实现，而且官方封装的很彻底，几行代码就能实现**
+>
+> > 效果一也是可以使用 ItemTouchHelper，但有些坑，不推荐，因为官方把 ItemTouchHelper 封装的过于彻底了些，有些东西不好去实现
+>
+> 
 
 ### 2.2、RV 实现长按移动，交换 item 位置
 
