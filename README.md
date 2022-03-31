@@ -169,6 +169,10 @@
 
 ### 2.4、自定义View
 
+> 自定义View预习作业：https://github.com/985892345/Android_Learning_Route/blob/main/自定义View预习作业.md
+>
+> 自定义View课件：https://github.com/985892345/CustomViewWithAnimStudy
+>
 > 推荐：
 >
 > 入门：《Android自定义控件开发入门与实战》
