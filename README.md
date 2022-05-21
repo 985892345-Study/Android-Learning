@@ -102,9 +102,9 @@
 >
 > 以下是对于 Android 之后发展的推测（仅代表个人观点）：
 >
-> `Rxjava` 以后会被 `协程` 代替
+> `Rxjava` 与 `协程` 大概率会共存，因为 `Rxjava` 适合处理复杂数据流，协程更适合一般使用
 >
-> `LiveData` 以后会被 `Flow` 代替
+> `LiveData` 有几率会被 `Flow` 代替，但 `LiveData` 更简便，适用于大部分需求
 >
 > `XML View` 与 `Compose` 以后应该会共存（个人认为各有各的优势）
 >
@@ -231,7 +231,7 @@
 > > ### NestedScrollingChild和NestedScrollingChild2
 > > > [NestedScrollingParent2官方文档](https://developer.android.com/reference/androidx/core/view/NestedScrollingParent2)
 > >
-> > > 题外话：为什么还要看1，不直接看2？因为部分官方控件中只使用了1，所以你要知道1和2的区别。还有一个3，这个3在网上的教程较少，直接继承了2，是2的一个简化版。
+> > > 题外话：为什么还要看1，不直接看2？因为部分官方控件中只使用了1，所以你要知道1和2的区别。还有一个3，这个3在网上的教程较少，直接继承了2，新增了在嵌套滑动中只消耗部分值的方法。
 > > > [NestedScrollingParent3官方文档](https://developer.android.google.cn/reference/androidx/core/view/NestedScrollingParent3?hl=en)
 >
 > ### 与设计多层自定义View时的使用
@@ -267,6 +267,8 @@
 > **仿写Gson**
 
 ### 2.9、仿写Rxjava
+
+> 就算你没时间仿写它，也必须把它用熟，因为它的思想很重要
 
 ### 2.10、仿写EventBus
 
@@ -321,6 +323,8 @@
 ### 3.10、Compose
 
 ### 3.11、Flow 
+
+### 3.12、ARouter的使用
 
 ### 3.xx 别卷了，别卷了！
 
